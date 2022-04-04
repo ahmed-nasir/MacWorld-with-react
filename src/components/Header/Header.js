@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
 
-        <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-gray-800">
+        <nav className="sticky top-0 bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-gray-800">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
                 <Link to='/' className="flex items-center">
                     {/* <img src="/docs/images/logo.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite Logo"/> */}

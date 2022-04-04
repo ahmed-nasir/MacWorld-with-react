@@ -23,18 +23,20 @@ const Home = () => {
                 <div className='container flex justify-center pl-32 '>
                     <h1 className='text-white'><span className=' text-2xl md:text-5xl font-bold'>Revolutionary device at an unbelievable price.  </span> <br /> second linesecond linesecond line</h1>
                 </div>
-                <div className='flex justify-center'><img className=' md:h-[450px] md:w-[450px] h-60 w-60   md:object-cover' src="https://freepikpsd.com/file/2020/02/Macbook-Pro-PNG-Clipart-Free.png" /></div>
+                <div className='flex justify-center'>
+                    <img className=' md:h-[450px] md:w-[450px] h-60 w-60   md:object-cover' src="https://freepikpsd.com/file/2020/02/Macbook-Pro-PNG-Clipart-Free.png" alt='hero-img'/>
+                </div>
             </div>
             <div >
-                <div className='grid justify-center'>
-                    <h1 className='text-4xl font-bold'>Customer Reviews</h1>
-                    <div className='grid grid-cols-3 gap-3'>
+                <div className='text-center'>
+                    <h1 className='text-4xl font-bold my-8'>Customer Reviews</h1>
+                    <div className='flex  justify-center gap-7'>
                         {
                             // reviews?.slice(0, 3).map(review => <Review key={review.id} review={review}></Review>)
                            reviews?.slice(0,3).map(review=><ReviewCard key={review.id} review={review}></ReviewCard>)
                         }
                     </div>
-                    <button className='bg-blue-600 rounded-sm p-2 text-white '>See More</button>
+                    <button className='mt-6 bg-blue-600 rounded-sm p-2 text-white '>See More</button>
                 </div>
 
             </div>

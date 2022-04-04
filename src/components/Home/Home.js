@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import Review from '../Review/Review';
 import ReviewCard from '../ReviewCard/ReviewCard';
+import useReviews from '../useReviews/useReviews';
 
 
 const Home = () => {
 
-    const [reviews, setReviews] = useState();
+    // custom hook
+    const [reviews,setReviews]=useReviews()
+    
+    /* const [reviews, setReviews] = useState();
     // console.log(reviews)
     useEffect(() => {
         fetch('fakedata.json')
@@ -16,7 +20,7 @@ const Home = () => {
             })
     }, [])
 
-
+ */
     return (
         <div>
             <div className='grid grid-cols-1 md:grid-cols-2  items-center bg-orange-500 py-5 mb-3 '>
@@ -36,7 +40,7 @@ const Home = () => {
                            reviews?.slice(0,3).map(review=><ReviewCard key={review.id} review={review}></ReviewCard>)
                         }
                     </div>
-                    <button className='mt-6 bg-blue-600 rounded-sm p-2 text-white '>See More</button>
+                    <button  className='mt-6 bg-blue-600 rounded-sm p-2 text-white '>See More</button>
                 </div>
 
             </div>

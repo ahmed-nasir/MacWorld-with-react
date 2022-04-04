@@ -1,9 +1,14 @@
 import React from 'react';
+import ReviewCard from '../ReviewCard/ReviewCard';
+import useReviews from '../useReviews/useReviews';
 
 const Reviews = () => {
+    const [reviews,setReviews]=useReviews()
     return (
         <div>
-            <h1>Reviews page</h1>
+            {
+                reviews?.map(review=><ReviewCard></ReviewCard>)
+            }
         </div>
     );
 };

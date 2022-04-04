@@ -19,7 +19,26 @@ const Blogs = () => {
             <div className='mx-12 rounded-md  border-2 my-4'>
                 <div className='pl-4'>
                 <h1 className='text-4xl '>What are inline, block, inline-block?</h1>
-                    <p className='text-lg'>A React app can use the React Context API to create global variables that can be passed around. This is an alternative to "prop drilling," which entails passing props from grandparent to child to parent, and so on. Context is also marketed as a more straightforward and lightweight Redux state management solution.</p>
+                    <p className='text-lg'><strong className='underline'>Inline:</strong> Displays an element as an inline element. Any height and width properties will have no effect.<br/>Here are a few elements that have a default inline property :<strong>
+                         <ul className=''>
+                        <li>span</li>
+                        <li>a</li>
+                        <li>img</li>
+                        <li>strong</li>
+                    </ul>
+                        </strong>
+                    </p>
+                    <p className='text-lg'><strong className='underline'>Block:</strong> Block element take space when they created<br/>Here are a few elements that have a default Block  property :<strong>
+                         <ul className=''>
+                        <li>p </li>
+                        <li>div</li>
+                        <li>main </li>
+                        
+                    </ul>
+                        </strong>
+                    </p>
+                    <p className='text-lg'><strong className='underline'>Inline-Block:</strong> Displays an element as an inline-level block container.  CAN set height and width values.<br/>
+                    </p>
                 </div>
             </div>  
         </div>

@@ -56,10 +56,10 @@ const Deshboard = () => {
     ];
 
     return (
-        <div className=''>
+        <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl"'>
             <h1 className='text-4xl font-semibold text-center'>Deshboard page</h1>
-            <div className='grid grid-cols-2 gap-10 mt-11'>
-                <div className='w-'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 mt-11'>
+                <div className='max-w-md mx-auto'>
                     <LineChart className='z-10' width={500} height={300} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" padding={{ left: 30, right: 30 }} />

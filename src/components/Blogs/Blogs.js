@@ -18,7 +18,7 @@ const Blogs = () => {
             </div>
             <div className='mx-12 rounded-md  border-2 my-4'>
                 <div className='pl-4'>
-                <h1 className='text-4xl '>What are inline, block, inline-block?</h1>
+                <h1 className='text-4xl '>Differences among inline, block, inline-block?</h1>
                     <p className='text-lg'><strong className='underline'>Inline:</strong> Displays an element as an inline element. Any height and width properties will have no effect.<br/>Here are a few elements that have a default inline property :<strong>
                          <ul className=''>
                         <li>span</li>

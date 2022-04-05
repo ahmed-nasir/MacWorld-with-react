@@ -40,7 +40,7 @@ const Home = () => {
                            reviews?.slice(0,3).map(review=><ReviewCard key={review.id} review={review}></ReviewCard>)
                         }
                     </div>
-                    <Link to="/reviews"><button  className='mt-6 bg-orange-500 rounded-md p-2 text-white '>See All Reviews</button></Link>
+                    <Link to="/reviews"><button  className='mt-6 bg-orange-500 rounded-md p-2 text-white drop-shadow-lg hover:translate-y-1 '>See All Reviews</button></Link>
                 </div>
 
             </div>

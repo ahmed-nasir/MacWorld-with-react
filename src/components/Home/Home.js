@@ -28,7 +28,7 @@ const Home = () => {
                     <h1 className='text-white'><span className=' text-3xl md:text-5xl font-bold'>Take your <span className='underline'>MacBook</span>  </span> <br /> <span className='text-lg md:text-3xl'>Revolutionary device at an unbelievable price <br/> provide any kind of mac book.</span></h1>
                 </div>
                 <div className='flex justify-center'>
-                    <img className=' md:h-[450px] md:w-[450px] h-60 w-60   md:object-cover' src="https://freepikpsd.com/file/2020/02/Macbook-Pro-PNG-Clipart-Free.png" alt='hero-img'/>
+                    <img className=' md:h-[450px] md:w-[450px] h-60 w-60   md:object-cover' src="https://i.ibb.co/tY2WDkw/Macbook-Pro-PNG-Clipart-Free.png" alt='hero-img'/>
                 </div>
             </div>
             <div >
